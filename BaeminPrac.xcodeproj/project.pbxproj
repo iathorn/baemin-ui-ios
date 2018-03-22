@@ -12,6 +12,9 @@
 		DA25BC482022B3120084D627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA25BC462022B3120084D627 /* Main.storyboard */; };
 		DA25BC4A2022B3120084D627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA25BC492022B3120084D627 /* Assets.xcassets */; };
 		DA25BC4D2022B3120084D627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA25BC4B2022B3120084D627 /* LaunchScreen.storyboard */; };
+		DA25BC552022C8C00084D627 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA25BC542022C8C00084D627 /* BannerCollectionViewCell.swift */; };
+		DA25BC572022DAC50084D627 /* CourseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA25BC562022DAC50084D627 /* CourseCollectionViewCell.swift */; };
+		DA6188D820286EF300ABD6A3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6188D720286EF300ABD6A3 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		DA25BC492022B3120084D627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA25BC4C2022B3120084D627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA25BC4E2022B3120084D627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA25BC542022C8C00084D627 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA25BC562022DAC50084D627 /* CourseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA6188D720286EF300ABD6A3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				DA25BC492022B3120084D627 /* Assets.xcassets */,
 				DA25BC4B2022B3120084D627 /* LaunchScreen.storyboard */,
 				DA25BC4E2022B3120084D627 /* Info.plist */,
+				DA25BC542022C8C00084D627 /* BannerCollectionViewCell.swift */,
+				DA25BC562022DAC50084D627 /* CourseCollectionViewCell.swift */,
+				DA6188D720286EF300ABD6A3 /* SecondViewController.swift */,
 			);
 			path = BaeminPrac;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA25BC552022C8C00084D627 /* BannerCollectionViewCell.swift in Sources */,
+				DA25BC572022DAC50084D627 /* CourseCollectionViewCell.swift in Sources */,
 				DA25BC452022B3120084D627 /* ViewController.swift in Sources */,
+				DA6188D820286EF300ABD6A3 /* SecondViewController.swift in Sources */,
 				DA25BC432022B3120084D627 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S2R3M45L8;
 				INFOPLIST_FILE = BaeminPrac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dpaulb.BaeminPrac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S2R3M45L8;
 				INFOPLIST_FILE = BaeminPrac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dpaulb.BaeminPrac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
